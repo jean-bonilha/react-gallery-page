@@ -1,7 +1,11 @@
+import Gallery from "./Gallery";
+import images from "./data/images.json"
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header"></header>
+    <div className="app">
+      <header className="app-header"></header>
+      <Gallery images={images} />
     </div>
   );
 }
