@@ -1,3 +1,4 @@
+import "./Image.css"
 import { ImageViewer } from "react-image-viewer-dv"
 
 function Image({ image }) {
