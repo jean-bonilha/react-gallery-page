@@ -4,6 +4,11 @@ img {
   height: 272px;
 }
 
-.image {
-  margin: 20px;
+.gallery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-template-rows: repeat(auto-fill, 272px);
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
 }
